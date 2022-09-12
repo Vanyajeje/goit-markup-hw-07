@@ -8,8 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/modern-normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Студія</title>
   </head>
   <body class="page">
@@ -17,20 +16,20 @@
     <header class="page-header">
       <div class="page-header__container container">
         <nav class="nav">
-          <a href="./index.html" class="logo link"> <span class="logo--blue">Web</span>Studio </a>
-          <ul class="nav__list list">
+          <a href="./index.html" class="logo"> <span class="logo--blue">Web</span>Studio </a>
+          <ul class="nav__list">
             <li class="nav__item">
-              <a href="./index.html" class="link nav__link nav__link--current">Студія</a>
+              <a href="./index.html" class="nav__link nav__link--current">Студія</a>
             </li>
             <li class="nav__item">
-              <a href="./portfolio.html" class="link nav__link">Портфоліо</a>
+              <a href="./portfolio.html" class="nav__link">Портфоліо</a>
             </li>
-            <li class="nav__item"><a href="" class="link nav__link">Контакти</a></li>
+            <li class="nav__item"><a href="" class="nav__link">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="contact list">
+        <ul class="contact">
           <li class="contact__item">
-            <a href="mailto:info@devstudio.com" class="contact__link link"
+            <a href="mailto:info@devstudio.com" class="contact__link"
               ><svg class="contact__img" width="21" height="16">
                 <use href="./images/symbol-defs.svg#icon-mail"></use>
               </svg>
@@ -38,7 +37,7 @@
             >
           </li>
           <li class="contact__item">
-            <a href="tel:+380961111111" class="contact__link link"
+            <a href="tel:+380961111111" class="contact__link"
               ><svg class="contact__img" width="21" height="16">
                 <use href="./images/symbol-defs.svg#icon-tel"></use>
               </svg>
@@ -53,9 +52,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero__text">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="button hero__button" data-modal-open>
-            Замовити послугу
-          </button>
+          <button type="button" class="hero__button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
 
@@ -64,7 +61,7 @@
       <section class="section section--features-pudding">
         <div class="container">
           <h2 class="hidden">Особливості</h2>
-          <ul class="features list">
+          <ul class="features">
             <li class="features__item">
               <div class="features__icon-thumb">
                 <svg class="features__icon" width="70" height="70">
@@ -116,7 +113,7 @@
       <section class="section">
         <div class="container">
           <h2 class="section__title">Чим ми займаємося</h2>
-          <ul class="area list">
+          <ul class="area">
             <li class="area__item">
               <div class="area__img-thumb">
                 <img src="images/img3.jpg" alt="Десктопні додатки" width="370" />
@@ -142,12 +139,12 @@
       <section class="section section--team">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
-          <ul class="team list">
+          <ul class="team">
             <li class="team__item">
               <img src="./images/img_igor.jpg" alt="Ігор Дем'яненко" width="270" />
               <h3 class="team__name">Ігор Дем'яненко</h3>
               <p class="team__post">Product Designer</p>
-              <ul class="social-networks list">
+              <ul class="social-networks">
                 <li class="social-networks__item">
                   <a href="" aria-label="Instagram" class="social-networks__link">
                     <svg class="social-networks__img">
@@ -335,28 +332,28 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="column">
-          <a href="./index.html" class="logo footer__logo link">
+          <a href="./index.html" class="logo footer__logo">
             <span class="logo--blue">Web</span>Studio
           </a>
 
           <address class="address">
-            <ul class="address__list list">
+            <ul class="address__list">
               <li class="address__item">
                 <a
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  class="address__link link"
+                  class="address__link"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
               <li class="address__item">
-                <a href="mailto:info@devstudio.com" class="address__link address__link--alfa link"
+                <a href="mailto:info@devstudio.com" class="address__link address__link--alfa"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="address__item">
-                <a href="tel:+380961111111" class="address__link address__link--alfa link"
+                <a href="tel:+380961111111" class="address__link address__link--alfa"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -365,7 +362,7 @@
         </div>
         <div class="column">
           <p class="colum__text">Приєднуйтесь</p>
-          <ul class="social-networks social-networks--footer list">
+          <ul class="social-networks social-networks--footer">
             <li class="social-networks__item">
               <a
                 href=""
@@ -479,7 +476,7 @@
             ></label>
           </div>
 
-          <button type="submit" class="button modal__button">Відправити</button>
+          <button type="submit" class="modal__button">Відправити</button>
         </form>
       </div>
     </div>
